@@ -8,3 +8,4 @@ Folders: (Updated daily for 100 days)
 Day 1 (Python) - Input and output
 Day 2 (Python) - For Loop
 Day 3 (Python) - Lists
+Day 4 (Python) - Inheritance of classes
