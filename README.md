@@ -10,3 +10,4 @@ Day 2 (Python) - For Loop
 Day 3 (Python) - Lists
 Day 4 (Python) - Inheritance of classes
 Day 5 (Java) - Input and output
+Day 6 (Html/CSS) - Html and css file linkage
