@@ -12,3 +12,5 @@ Day 4 (Python) - Inheritance of classes
 Day 5 (Java) - Input and output
 Day 6 (Html/CSS) - Html and css file linkage
 Day 7 (Python) - While loop
+Day 9 (Python) - Deep learning for face recognition training [Unfinished]
+Day 10 (Python) - Attendance project [Unfinished]
