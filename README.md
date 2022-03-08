@@ -15,3 +15,4 @@ Day 7 (Python) - While loop
 Day 9 (Python) - Deep learning for face recognition training [Unfinished]
 Day 10 (Python) - Attendance project [Unfinished]
 Day 11 (JavaScript) - Hello World
+Day 12 (Python) - Login
