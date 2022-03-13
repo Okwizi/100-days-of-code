@@ -1,0 +1,98 @@
+<html>
+<body>
+	<form>
+		<div class="form-body">
+			<p class="p1"><i>Please fill in the details correctly before submitting the form.</i></p>
+			<hr />
+
+			<caption>PERSONAL DETAILS</caption>
+			<div>
+				<label for="choose-file" class="lable">Upload Picture:</label>
+				<input type="file" id="choose-file" maxwidth="500" maxlength="500">
+			</div>
+			<div class="horizontal">
+				<div class="left">
+					<label for="firstname" class="lable">First name:<span class="required">*</span></label>
+					<input type="text" name="first_name" id="firstname" class="input" placeholder="First Name" required="required" />
+				</div>
+				<div class="right">
+					<div>
+						<label for="middlename" class="lable">Middle name:<span class="required">*</span></label>
+						<input type="text" name="middle_name" id="middlename" class="input" required="required" placeholder="Middle Name"></span>
+					</div>
+				</div>
+				<div class="horizontal">
+					<div class="left">
+						<label for="lastname" class="lable">Last name:<span class="required">*</span></label>
+						<input type="text" name="last_name" id="lastname" class="input" required="required" placeholder="Last Name">
+					</div>
+				</div>
+				<div class="horizontal">
+					<div class="right">
+						<label for="reg-number" class="lable">Registration number:<span class="required">*</span></label>
+						<input type="text" id="reg-number" class="input" required="required" placeholder="SCM000-0000/0000">
+					</div>
+					<div class="left">
+						<label for="dob" class="lable">Date of birth:<span class="required">*</span></label>
+						<input type="date" name="date" id="dob" class="input" required="required">
+					</div>
+					<div class="right">
+						<label for="email" class="lable">Email:</label>
+						<input type="email" name="email" id="email" class="input" required="required" placeholder="email">
+					</div>
+					<div class="left">
+						<label for="phone" class="lable">Phone number:<span class="required">*</span></label>
+						<input type="text" id="phone" class="input" placeholder="Phone" required="required">
+					</div>
+					<div class="left">
+						<span>
+							Gender
+							<input type="radio" name="gender" value="male" id="gender" class="leftmale" required="required">Male
+							<input type="radio" name="gender" value="female" id="gender" class="leftfemale" required="required">Female
+						</span>
+					</div>
+					<div class="right">
+						<div>
+							<label for="hob" class="lable">Hobbies (Select all that apply):</label>
+							<div>
+								<input type="checkbox" name="checkbox" id="hob" class="inputh" required="required">Drawing
+								<input type="checkbox" name="checkbox" id="hob" class="inputh" required="required">Sports
+								<input type="checkbox" name="checkbox" id="hob" class="inputh" required="required">Swimming
+								<input type="checkbox" name="checkbox" id="hob" class="inputh" required="required">Reading
+								<input type="checkbox" name="checkbox" id="hob" class="inputh" required="required">Gaming
+								<input type="checkbox" name="checkbox" id="hob" class="inputh" required="required">Travelling
+							</div>
+						</div>
+						<div class="">
+							<div></div><label for="hobtext" class="">Other Hobbies (List with comma after each)</label>
+						</div>
+						<div class="p1"><i>Max: 500 characters.</i></div>
+						<div><input type="textarea" name="textarea" id="hobtext" class="input" placeholder="Type here" maxlength="500"></div>
+					</div>
+				</div>
+				<div>
+					<label for="username" class="lable">Username:<span class="required">*</span></label>
+					<input type="text" name="username" id="username" class="input" placeholder="Username" required="required">
+				</div>
+
+				<div class="horizontal">
+					<div class="left">
+						<label for="password" class="lable">New password:<span class="required">*</span></label>
+						<input type="password" name="password" id="password" class="input" placeholder="Password" required="required">
+					</div>
+					<div class="right">
+						<label for="confirm" class="lable">Confirm password:<span class="required">*</span></label>
+						<input type="password" name="password" id="confirm" class="input" placeholder="Confirm Password" required="required">
+					</div>
+
+					<hr /><p class="p2">By clicking SUBMIT, you agree with the set school rules, terms and usage of the provided information above.</p>
+
+					<span class="required">*</span><span>Required (Mandatory) to fill.</span>
+
+					<div>
+						<input class="submit" type="submit" name="">
+					</div>
+				</div>
+</form>
+</body>
+</html>
