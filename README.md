@@ -20,4 +20,5 @@ Day 13 (Java) - Hello World
 Day 14 (Python) - Kivy Intro
 Day 15 (Python) - Kivy Buttons
 Day 16 (Python) - Lists
-Day 17 (Html) - registration form (without css)
+Day 17 (Html) - Registration form (without css)
+Day 18 (Python) - Kivy Label in main.py
