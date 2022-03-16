@@ -23,3 +23,4 @@ Day 16 (Python) - Lists
 Day 17 (Html) - Registration form (without css)
 Day 18 (Python) - Kivy Label in main.py
 Day 19 (Python) - Kivy .kv intro
+Day 20 (Python) - Kivymd intro
