@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="projectIAP.css">
+	<link rel="stylesheet" type="text/css" href="C:/Users/ADMIN/Desktop/Programming/CSS/project iap.css">
 	<link rel="stylesheet" type="text/css" href="C:/Users/ADMIN/Desktop/Programming/CSS/MaterialDesign-Webfont-master/css/materialdesignicons.css">
 	<!--<link rel="stylesheet" type="ttf" href="">-->
 	<title>Store</title>
@@ -16,7 +16,7 @@
 			<img src="" width="125px" alt="logo">
 		</div>
 		<nav>
-			<ul>
+			<ul id="menu-items">
 				<li><a href=""><span class="mdi mdi-home"></span> HOME</a></li>
 				<li><a href=""><span class="mdi mdi-shopping"></span> PRODUCTS</a></li>
 				<li><a href=""><span class="mdi mdi-information-variant"> ABOUT</span></a></li>
@@ -25,6 +25,8 @@
 			</ul>
 		</nav>
 		<a href="" class="btn-small"><span class="mdi mdi-cart"></span> CART</a>
+		<a href="" class="menu-icon" onclick="menutoggle()"><span class="mdi mdi-menu"></span></a>
+
 	</div>
 	<div class="row">
 		<div class="col-2">
@@ -56,5 +58,261 @@
 		</div>
 		</div>
 	</div>
+
+<!--Featured Products-->
+	<div class="small-container">
+		<h2 class="title ">Featured Products</h2>
+		<div class="row">
+			<div class="col-4">
+				<img src="" alt="image">
+				<h4>Print T-shirt</h4>
+				<div class="rating">
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star-outline"></span>
+				</div>
+				<p>Ksh.500</p>
+			</div>
+			<div class="col-4">
+				<img src="" alt="image">
+				<h4>Print T-shirt</h4>
+				<div class="rating">
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star-outline"></span>
+				</div>
+				<p>Ksh.500</p>
+			</div>
+			<div class="col-4">
+				<img src="" alt="image">
+				<h4>Print T-shirt</h4>
+				<div class="rating">
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star-outline"></span>
+				</div>
+				<p>Ksh.500</p>
+			</div>
+			<div class="col-4">
+				<img src="" alt="image">
+				<h4>Print T-shirt</h4>
+				<div class="rating">
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star-outline"></span>
+				</div>
+				<p>Ksh.500</p>
+			</div>
+		</div>
+		<h2 class="title">Latest Products</h2>
+		<div class="row">
+			<div class="col-4">
+				<img src="" alt="image">
+				<h4>Print T-shirt</h4>
+				<div class="rating">
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star-outline"></span>
+				</div>
+				<p>Ksh.500</p>
+			</div>
+			<div class="col-4">
+				<img src="" alt="image">
+				<h4>Print T-shirt</h4>
+				<div class="rating">
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star-outline"></span>
+				</div>
+				<p>Ksh.500</p>
+			</div>
+			<div class="col-4">
+				<img src="" alt="image">
+				<h4>Print T-shirt</h4>
+				<div class="rating">
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star-outline"></span>
+				</div>
+				<p>Ksh.500</p>
+			</div>
+			<div class="col-4">
+				<img src="" alt="image">
+				<h4>Print T-shirt</h4>
+				<div class="rating">
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star-outline"></span>
+				</div>
+				<p>Ksh.500</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-4">
+				<img src="" alt="image">
+				<h4>Print T-shirt</h4>
+				<div class="rating">
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star-outline"></span>
+				</div>
+				<p>Ksh.500</p>
+			</div>
+			<div class="col-4">
+				<img src="" alt="image">
+				<h4>Print T-shirt</h4>
+				<div class="rating">
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star-outline"></span>
+				</div>
+				<p>Ksh.500</p>
+			</div>
+			<div class="col-4">
+				<img src="" alt="image">
+				<h4>Print T-shirt</h4>
+				<div class="rating">
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star-outline"></span>
+				</div>
+				<p>Ksh.500</p>
+			</div>
+			<div class="col-4">
+				<img src="" alt="image">
+				<h4>Print T-shirt</h4>
+				<div class="rating">
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star"></span>
+					<span class="mdi mdi-star-outline"></span>
+				</div>
+				<p>Ksh.500</p>
+			</div>
+		</div>
+	</div>
+
+	<!--Featured Categories-->
+	<div class="offer">
+		<div class="small-container">
+			<div class="row">
+				<div class="col-2">
+					<img src="" alt="image" class="offer-img">
+				</div>
+				<div class="col-2">
+					<p>Exclusively available</p>
+					<h1>Smart Band</h1>
+					<small>
+						dververvwonvwehbvwivnweovnweivnqewenvweov
+					</small>
+					<p><a href="" class="btn">Buy Now <span class="mdi mdi-arrow-right-thin"></span></a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!--Brands-->
+	<div class="brands">
+		<div class="small-container">
+			<div class="row">
+				<div class="col-5">
+					<img src="" alt="brand">
+				</div>
+				<div class="col-5">
+					<img src="" alt="brand">
+				</div>
+				<div class="col-5">
+					<img src="" alt="brand">
+				</div>
+				<div class="col-5">
+					<img src="" alt="brand">
+				</div>
+				<div class="col-5">
+					<img src="" alt="brand">
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!--Brands-->
+	<div class="footer">
+		<div class="small-container">
+			<div class="row">
+				<div class="footer-col-1">
+					<h3>Download Our App</h3>
+					<p>For ios and android.</p>
+					<div class="app">
+						<img src="" alt="app logo">
+						<img src="" alt="app logo2">
+					</div>
+				</div>
+				<div class="footer-col-2">
+					<img src="" alt="image">
+					<p>sdvdvdffbfgbdbfdbdfbfbgbfgbdvdsfedvdfvffdbfgbdbbbbbbbbbbbbbbdfdvfdddfbd</p>
+				</div>
+				<div class="footer-col-3">
+					<h3>Useful links</h3>
+					<ul>
+						<li>Coupons</li>
+						<li>Blog Post</li>
+						<li>Return Policy</li>
+						<li>Join Affliate</li>
+					</ul>
+				</div>
+				<div class="footer-col-4">
+					<h3 class="h3-follow-us">Follow Us</h3>
+					<nav>
+						<ul>
+						<li><a href=""><span class="mdi mdi-instagram"></span> Instagram</a></li>
+						<li><a href=""><span class="mdi mdi-twitter"></span> Twitter</a></li>
+						<li><a href=""><span class="mdi mdi-facebook"> Facebook</span></a></li>
+						<li><a href=""><span class="mdi mdi-discord"></span> Discord</a></li>
+						<li><a href=""><span class="mdi mdi-youtube"></span> Youtube</a></li>
+					</ul>
+					</nav>
+				</div>
+			</div>
+			<hr>
+			<p class="copyright">Copyright 2022 - ssfwewervvs</p>
+		</div>
+	</div>
+
+	<!--<script type="text/javascript">
+		var menu_items = document.getElementById("menu-items");
+		menu_items.style.maxHeight = "0px";
+		function menutoggle(){
+			if(menu_items.style.maxHeight == "0px")
+				{
+					menu_items.style.maxHeight = "200px";
+				}
+			else
+				{
+					menu_items.style.maxHeight == "0px";
+				}
+		}
+	</script>-->
 </body>
 </html>
