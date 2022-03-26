@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="C:/Users/ADMIN/Desktop/Programming/CSS/project iap.css">
+    <link rel="stylesheet" type="text/css" href="C:/Users/ADMIN/Desktop/Programming/CSS/MaterialDesign-Webfont-master/css/materialdesignicons.css">
+    <title>Account</title>
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+        <div class="logo">
+            <img src="" width="125px" alt="logo">
+        </div>
+        <nav>
+            <ul id="menu-items">
+                <li><a href=""><span class="mdi mdi-home"></span> HOME</a></li>
+                <li><a href=""><span class="mdi mdi-shopping"></span> PRODUCTS</a></li>
+                <li><a href=""><span class="mdi mdi-information-variant"> ABOUT</span></a></li>
+                <li><a href=""><span class="mdi mdi-phone-classic"></span> CONTACT</a></li>
+                <li><a href=""><span class="mdi mdi-account"></span> ACCOUNT</a></li>
+            </ul>
+        </nav>
+        <a href="" class="btn-small"><span class="mdi mdi-cart"></span> CART</a>
+        <a href="" class="menu-icon" onclick="menutoggle()"><span class="mdi mdi-menu"></span></a>
+
+    </div>
+
+
+    <!--Account page-->
+    <div class="account-page">
+       <div class="container">
+           <div class="row">
+               <div class="col-2">
+                   <img src="" width="100%" alt="image">
+               </div>
+
+                <div class="col-2">
+                   <div class="form-container">
+                       <div class="form-btn">
+                           <span onclick="login()">Login</span>
+                           <span onclick="register()">Register</span>
+                           <hr id="Indicator">
+                       </div>
+
+                       <form id="LoginForm">
+                           <input type="text" placeholder="Username" name="">
+                           <input type="password" placeholder="Password" name="">
+                           <a href="">Forgot password</a>
+                           <button type="submit" class="btn">Login</button>
+                       </form>
+
+                       <form id="RegForm">
+                           <input type="text" placeholder="Username" name="">
+                           <input type="text" placeholder="Email" name="">
+                           <input type="password" placeholder="Password" name="">
+                           <button type="submit" class="btn">Register</button>
+                       </form>
+                   </div>
+               </div>
+           </div>
+    </div>
+
+
+    <!--Footer-->
+    <div class="footer">
+        <div class="small-container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>For ios and android.</p>
+                    <div class="app">
+                        <img src="" alt="app logo">
+                        <img src="" alt="app logo2">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="" alt="image">
+                    <p>sdvdvdffbfgbdbfdbdfbfbgbfgbdvdsfedvdfvffdbfgbdbbbbbbbbbbbbbbdfdvfdddfbd</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affliate</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col-4">
+                    <h3 class="h3-follow-us">Follow Us</h3>
+                    <nav>
+                        <ul>
+                        <li><a href=""><span class="mdi mdi-instagram"></span> Instagram</a></li>
+                        <li><a href=""><span class="mdi mdi-twitter"></span> Twitter</a></li>
+                        <li><a href=""><span class="mdi mdi-facebook"> Facebook</span></a></li>
+                        <li><a href=""><span class="mdi mdi-discord"></span> Discord</a></li>
+                        <li><a href=""><span class="mdi mdi-youtube"></span> Youtube</a></li>
+                    </ul>
+                    </nav>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022 - ssfwewervvs</p>
+        </div>
+    </div>
+
+    <!--Js for toggle form-->
+    <script>
+        var LoginForm = document.getElementById("LoginForm");
+        var RegForm = document.getElementById("RegForm");
+        var Indicator = document.getElementById("Indicator");
+
+        function register() {
+            RegForm.style.transform = "translateX(0px)";
+            LoginForm.style.transform = "translateX(0px)";
+            Indicator.style.transform = "translateX(100px)";
+        }
+
+        function login() {
+            RegForm.style.transform = "translateX(300px)";
+            LoginForm.style.transform = "translateX(300px)";
+            Indicator.style.transform = "translateX(0px)";
+        }
+    </script>
+    </div>
+</body>
+</html>
